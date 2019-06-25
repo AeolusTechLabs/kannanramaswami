@@ -9,7 +9,7 @@ class App extends Component {
 }
 
 callAPI() {
-    fetch("http://localhost:8001/testAPI")
+    fetch("http://localhost:9000/testAPI")
         .then(res => res.text())
         .then(res => this.setState({ apiResponse: res }));
 }
@@ -22,7 +22,7 @@ componentWillMount() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>

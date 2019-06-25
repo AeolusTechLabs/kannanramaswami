@@ -2,6 +2,7 @@
   "name": "fullstack",
   "version": "0.1.0",
   "private": true,
+  "main": "index.js",
   "dependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
@@ -47,6 +48,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "client": "webpack-dev-server --mode development --devtool inline-source-map --hot",
     "build": "webpack --mode production",
+    "heroku-postbuild": "npm build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

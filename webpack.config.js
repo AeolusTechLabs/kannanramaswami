@@ -42,7 +42,7 @@ const frontConfig = {
         ]
       },
       devServer: {
-        port: 5001,
+        port: 3000,
         open: true,
       },
       plugins: [
