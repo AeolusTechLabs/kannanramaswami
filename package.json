@@ -2,7 +2,7 @@
   "name": "fullstack",
   "version": "0.1.0",
   "private": true,
-  "main": "./src/server/app.js",
+  "main": "index.js",
   "dependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
